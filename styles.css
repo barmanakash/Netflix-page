@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e50914;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    margin-top: 80px;
+    padding: 60px;
+    text-align: center;
+    background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-play {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.movies {
+    padding: 20px;
+}
+
+.movies h2 {
+    margin-bottom: 20px;
+}
+
+.movie-row {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.movie {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+}
